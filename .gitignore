@@ -1,2 +1,8 @@
-#node modules 
+# node modules 
 node_modules
+
+# yarn error log
+yarn-error.log
+
+# env
+.env
