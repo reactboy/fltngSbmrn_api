@@ -10,5 +10,7 @@ export const connectDatabase = async () => {
     const db = client.db("main");
     return {
         users: db.collection("users"),
+        bookmarks: db.collection("bookmarks"),
+        feeds: db.collection("feeds"),
     };
 };
